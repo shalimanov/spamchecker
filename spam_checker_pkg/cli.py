@@ -9,7 +9,7 @@ import pandas as pd
 from sklearn import metrics
 
 from . import dataset, ml, spacy_model, pipeline
-from .constants import MODEL_DIR, RANDOM_SEED
+from .constants import MODEL_DIR
 
 
 def _train_models(X_train, y_train):
